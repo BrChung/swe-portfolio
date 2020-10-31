@@ -1,0 +1,21 @@
+.about-image-container {
+  min-width: 420px;
+  height: 526px;
+  background: grey;
+  margin: 0 48px;
+  border-radius: 18px;
+}
+
+.about-text-container {
+  width: 550px;
+}
+
+.about-stylish-text {
+  position: absolute;
+  bottom: 0px;
+  right: -200px;
+  font-size: 180px;
+  font-weight: 700;
+  opacity: 10%;
+  white-space: nowrap;
+}
