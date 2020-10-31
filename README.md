@@ -17,7 +17,7 @@
     # install gatsby-cli via npm
     npm install -g gatsby-cli
     # create a new Gatsby site using the hello-world starter
-    gatsby new swe-portfolio ?CHANGE
+    gatsby new swe-portfolio https://github.com/BrChung/swe-portfolio
     ```
 
 1.  **Start developing.**
