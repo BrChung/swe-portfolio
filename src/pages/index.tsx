@@ -29,7 +29,16 @@ export default function Home() {
         </div>
       </section>
       <section id="work">
-        <span>This is the work section</span>
+        <h2>
+          <span className="accent">2.&nbsp;</span>
+          My Latest Work
+        </h2>
+        <div className="work-container">
+          <div className="work-grid-item-1">Item 1</div>
+          <div className="work-grid-item-2">Item 2</div>
+          <div className="work-grid-item-3">Item 3</div>
+          <div className="work-grid-item-4">Item 4</div>
+        </div>
       </section>
       <section id="contact">
         <span>This is the contact section</span>
