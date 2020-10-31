@@ -1,6 +1,18 @@
+// Not the recommended way to fetch a font
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
 :root {
   --light: #f5f5f5;
   --dark: #32373b;
   --primary: #040f8b;
   --accent: #fee348;
+}
+
+body {
+  background-color: var(--light);
+  color: var(--dark);
+  margin: 0;
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
