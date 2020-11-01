@@ -1,5 +1,7 @@
 import React from "react"
 import Img from "gatsby-image"
+import Particles from "react-particles-js"
+import particleOptions from "../config/particles"
 import "../styles/Landing.scss"
 
 export default function Landing({ pic }) {
@@ -20,7 +22,9 @@ export default function Landing({ pic }) {
           fluid={pic.childImageSharp.fluid}
         />
       </div>
-      <div className="particles-container"></div>
+      <div className="particles-container">
+        <Particles params={particleOptions as any} />
+      </div>
       <div className="landing-stylish-text">
         <span>UI/UX DESIGN</span>
       </div>
