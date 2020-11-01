@@ -1,10 +1,18 @@
 import React from "react"
+import PropTypes from "prop-types"
+import Img from "gatsby-image"
 import "../styles/About.scss"
 
-export default function About() {
+export default function About({ pic }) {
   return (
     <section id="about">
-      <div className="about-image-container"></div>
+      <div className="about-image-container">
+        <Img
+          className="about-profile-image"
+          fluid={pic.childImageSharp.fluid}
+          alt="Avatar"
+        />
+      </div>
       <div className="about-text-container">
         <h2>
           <span className="accent">1.&nbsp;</span>About Me
