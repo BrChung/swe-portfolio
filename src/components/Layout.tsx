@@ -1,9 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Header from "./Header"
 import "../styles/Layout.scss"
 
 export default function Layout({ children }) {
-  return <main className="main-container">{children}</main>
+  return (
+    <>
+      <Header />
+      <main className="main-container">{children}</main>
+    </>
+  )
 }
 
 Layout.propTypes = {
