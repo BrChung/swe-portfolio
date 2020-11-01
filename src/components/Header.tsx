@@ -4,7 +4,7 @@ import "../styles/Header.scss"
 
 export default function Header() {
   return (
-    <header className="navbar">
+    <header id="navbar">
       <nav className="navbar-elm">
         <div>
           <span className="nav-site-title">
