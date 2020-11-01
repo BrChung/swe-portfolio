@@ -10,7 +10,7 @@ import "../styles/index.scss"
 export default function Home({ data }) {
   return (
     <Layout>
-      <Landing />
+      <Landing pic={data.landingPic} />
       <About pic={data.aboutPic} />
       <Work
         pic1={data.project1}
@@ -56,6 +56,13 @@ export const pageQuery = graphql`
     project4: file(relativePath: { eq: "example4.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 400, quality: 90) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    landingPic: file(relativePath: { eq: "landing.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 600, quality: 90) {
           ...GatsbyImageSharpFluid
         }
       }

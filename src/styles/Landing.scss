@@ -1,0 +1,64 @@
+.particles-container {
+  padding-right: 0;
+  margin-right: -68vw;
+  background: var(--primary);
+  height: 100%;
+  width: 100vw;
+}
+
+.landing-button {
+  background-color: var(--primary);
+  color: var(--light);
+  padding: 12px;
+  width: 200px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.landing-text-container {
+  max-width: 375px;
+  z-index: 1;
+}
+
+.landing-picture-container {
+  position: absolute;
+  right: 15vw;
+  width: 30vw;
+  max-width: 560px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  //   background: red;
+  //   opacity: 60%;
+}
+
+.landing-picture-diamond {
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+  height: 40%;
+  background-color: var(--accent);
+  background-image: radial-gradient(
+    farthest-corner at 60% 55%,
+    var(--accent),
+    rgb(189, 171, 71)
+  );
+  border-radius: 32px;
+  transform: rotate(115deg);
+}
+
+.landing-profile-image {
+  //   background: red;
+}
+
+.landing-stylish-text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translateX(-70%) rotate(-90deg);
+  font-size: 180px;
+  font-weight: 700;
+  opacity: 10%;
+  white-space: nowrap;
+}

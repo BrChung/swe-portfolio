@@ -21,9 +21,14 @@ body {
   color: var(--primary);
 }
 
+h1,
 h2 {
   font-size: 48px;
   font-weight: bold;
+}
+
+h1 {
+  line-height: 0;
 }
 
 p {

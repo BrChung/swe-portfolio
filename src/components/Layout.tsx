@@ -5,10 +5,10 @@ import "../styles/Layout.scss"
 
 export default function Layout({ children }) {
   return (
-    <>
+    <div className="body-container">
       <Header />
       <main className="main-container">{children}</main>
-    </>
+    </div>
   )
 }
 
